@@ -1,0 +1,34 @@
+{
+    "name": "spryker-projects/import-process",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "ImportProcess module",
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.3",
+        "spryker/flysystem": "^2.1.0",
+        "spryker/flysystem-aws3v3-file-system": "^2.0"
+    },
+    "require-dev": {
+        "spryker/code-sniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SprykerDemo\\": "src/SprykerDemo/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "cs-check": "phpcs -p -s --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/",
+        "cs-fix": "phpcbf -p --standard=vendor/spryker/code-sniffer/Spryker/ruleset.xml src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
