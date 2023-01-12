@@ -24,6 +24,11 @@ $config[KernelConstants::CORE_NAMESPACES] = [
 ];
 ```
 
+## Integration
+You need to configure DataImportByImportProcessPlugin
+in your own `ImportProcessDependencyProvider::createDataImportByImportProcessPlugin()`
+to be able to import data.
+
 ## Documentation
 
 [Module Documentation](https://academy.spryker.com/developing_with_spryker/module_guide/modules.html)
