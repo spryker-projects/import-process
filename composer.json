@@ -6,6 +6,7 @@
     "license": "proprietary",
     "require": {
         "php": ">=7.3",
+        "spryker/data-import": "^1.18.0",
         "spryker/flysystem": "^2.1.0",
         "spryker/flysystem-aws3v3-file-system": "^2.0"
     },
